@@ -1,114 +1,58 @@
-# SITE SETUP
+---
+# An instance of the Contact widget.
+widget: contact
 
-# Guide: https://wowchemy.com/docs/getting-started/
+# This file represents a page section.
+headless: true
 
-# Documentation: https://wowchemy.com/docs/
+# Order that this section appears on the page.
+weight: 130
 
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+title: Contact
+subtitle:
 
-# Appearance
+content:
+  # Automatically link email and phone or display as text?
+  autolink: true
 
-appearance:
-theme_day: minimal
-theme_night: minimal
-font: minimal
-font_size: L
+  # Email form provider
+  form:
+    provider: netlify
+    formspree:
+      id:
+    netlify:
+      # Enable CAPTCHA challenge to reduce spam?
+      captcha: false
 
-# SEO
+  # Contact details (edit or remove options as required)
+  email: esengen.1@osu.edu
+  phone:
+    # address:
+  #   street:
+  #   city: Columbus
+  #   region: OH
+  #   postcode: '43201'
+  #   country: United States
+  #   country_code: US
+  # coordinates:
+  #   latitude: '37.4275'
+  #   longitude: '-122.1697'
+  # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  # office_hours:
+  #   - 'Monday 10:00 to 13:00'
+  #   - 'Wednesday 09:00 to 10:00'
+  # appointment_url: 'https://calendly.com'
 
-marketing:
-seo:
-site_type: Person
-local_business_type: ''
-org_name: ''
-description: 'professional website - Sinem Esengen'
-twitter: ''
-analytics:
-google_analytics: 'G-14D63ERC63'
-baidu_tongji: ''
-verification:
-google: ''
-baidu: ''
+  # contact_links:
+  #   - icon: twitter
+  #     icon_pack: fab
+  #     name: DM Me
+  #     link: 'https://twitter.com/SinemEsengen'
+  #   - icon: video
+  #     icon_pack: fas
+  #     name: Zoom Me
+  #     link: 'https://zoom.com'
 
-# Site header
-
-header:
-navbar:
-enable: true
-align: l
-show_logo: true
-show_language: false
-show_day_night: true
-show_search: true
-highlight_active_link: true
-
-# Site footer
-
-footer:
-copyright:
-notice: '© {year} Sinem Esengen. This work is licensed under {license}'
-license:
-enable: true
-allow_derivatives: false
-share_alike: true
-allow_commercial: false
-
-# Localization
-
-locale:
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
-address_format: en-us
-
-# Site features
-
-features:
-syntax_highlighter:
-theme_light: github-light
-theme_dark: dracula
-math:
-enable: false
-privacy_pack:
-enable: false
-repository:
-url: 'https://github.com/<username>/<repository>'
-content_dir: content
-branch: main
-avatar:
-gravatar: false
-shape: circle
-comment:
-provider: ''
-disqus:
-shortname: ''
-show_count: true
-commento:
-url: ''
-search:
-provider: wowchemy
-algolia:
-app_id: ''
-api_key: ''
-index_name: ''
-show_logo: false
-map:
-provider: ''
-api_key: ''
-zoom: 15
-
-# Extensions
-
-extensions:
-cms:
-branch: main
-local_backend: false
-academicons:
-enable: true
-
-# Security
-
-security:
-
-# Allow frame for embedding speaker notes in slides
-
-allow_frame: true
+design:
+  columns: "2"
+---
