@@ -7,34 +7,33 @@
 
 theme: minimal
 day_night: true
-font: 'default'
-font_size: M
+font: "default"
+font_size: L
 
 # SEO
 
 site_type: Person
-local_business_type: ''
-org_name: ''
-description: ''
-twitter: ''
+local_business_type: ""
+org_name: ""
+description: "professional website - Sinem Esengen"
+twitter: ""
 
 # Contact (edit or remove options as required)
 
 email:
 address:
-  street: 1, Esplanade de l'Université
-  city: Toulouse
+  street:
+  city:
   region:
-  postcode: 31080
-  country: France
-  country_code: FR
+  postcode:
+  country:
+  country_code:
 coordinates:
-  latitude: '43.605001994042176'
-  longitude: '1.4350518299273325'
+  latitude: "43.605001994042176"
+  longitude: "1.4350518299273325"
 directions:
 office_hours:
-appointment_url: ''
-
+appointment_url: ""
 
 # Site header
 
@@ -49,8 +48,8 @@ main_menu:
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
+date_format: "Jan 2, 2006"
+time_format: "3:04 PM"
 address_format: en-us
 
 # Site features
@@ -62,8 +61,8 @@ math: false
 diagram: false
 privacy_pack: false
 edit_page:
-  repo_url: ''
-  content_dir: ''
+  repo_url: ""
+  content_dir: ""
   repo_branch: main
   editable:
     page: false
@@ -85,7 +84,7 @@ copyright_license:
   allow_derivatives: false
   share_alike: true
   allow_commercial: false
-  notice: 'This work is licensed under {license}'
+  notice: "This work is licensed under {license}"
 abstract_length: 135
 plugins_js: []
 avatar:
@@ -102,7 +101,7 @@ breadcrumb:
   page_types:
     book: true
 comments:
-  provider: ''
+  provider: ""
   commentable:
     post: true
     book: true
@@ -110,27 +109,27 @@ comments:
     publication: true
     event: true
   disqus:
-    shortname: ''
+    shortname: ""
     show_count: true
   commento:
-    url: ''
+    url: ""
 search:
   provider: wowchemy
   algolia:
-    app_id: ''
-    api_key: ''
-    index_name: ''
+    app_id: ""
+    api_key: ""
+    index_name: ""
     show_logo: false
 map:
-  provider: ''
-  api_key: ''
+  provider: ""
+  api_key: ""
   zoom: 15
 marketing:
-  google_analytics: ''
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
+  google_analytics: ""
+  google_tag_manager: ""
+  google_site_verification: ""
+  baidu_site_verification: ""
+  baidu_tongji: ""
 cms:
   branch: master
   local_backend: false

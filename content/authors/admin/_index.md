@@ -1,52 +1,57 @@
 ---
-title: Giacomo Lemoli
-role: Research Fellow
+# Display name
+title: Sinem Esengen
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position/tagline
+role: Ph.D. Student in Sociology
 avatar_filename: "avatar.jpg"
-bio: ""
+bio: My research interests include health, gender and reproductive health.
 interests:
-  - Comparative Politics
-  - Political Economy 
-  - Ethnic Politics
-  - Development
-  - Historical Political Economy
+  - Gender and Sexuality
+  - Reproductive Health
+  - Feminist Theory
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:giacomo.lemoli@iast.fr
+    link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/giacomolem
-  - icon: graduation-cap
+    link: https://twitter.com/SinemEsengen
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.it/citations?user=fTgXdvcAAAAJ&hl=it
+    link: https://scholar.google.com/citations?hl=en&user=IEzmMMsAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/giacomolemoli
+    link: https://github.com/sinemasya21
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/sinemesengen/
+# Organizations/Affiliations to show in About widget
 organizations:
-  - name: Institute for Advanced Study in Toulouse
-    url: https://www.iast.fr/
+  - name: The Ohio State University
+    url: https://sociology.osu.edu/
 education:
   courses:
-    - course: PhD in Politics
-      institution: New York University
-      year: 2023
-    - course: MSc Economic and Social Sciences
-      institution: Bocconi University
-      year: 2017
-    - course: BSc International Economics, Management and Finance
-      institution: Bocconi University
-      year: 2014
+    - course: Ph.D. Student in Sociology
+      institution: The Ohio State University
+      year: current
+    - course: BSc in Sociology (Minor in History of Philosophy)
+      institution: Middle East Technical University
+      year: 2022
+    - course: MSc in Gender & Women's Studies
+      institution: Middle East Technical University
+      year: 2021
+    - course: BSc in Economics & Business Economis
+      institution: Maastricht University
+      year: 2018
 email: ""
 superuser: true
-highlight_name: false
+highlight_name: true
 ---
 
-I am a Postdoctoral Research Fellow at the {{< staticref "https://www.iast.fr/" "newtab">}}Institute for Advanced Study in Toulouse{{< /staticref >}}. I hold a PhD in Politics from {{< staticref "https://as.nyu.edu/politics.html" "newtab" >}}New York University{{< /staticref >}} and a MSc in Economic and Social Sciences from {{< staticref "https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/" "newtab" >}}Bocconi University{{< /staticref >}}. 
+I am a Ph.D. student of Sociology at [the Ohio State University](https://sociology.osu.edu/). My research interests include reproductive health, gender and sexuality, and feminist resistance with a focus on the MENA.
 
-My research studies the construction and change of group identities, and their implications for political competition, mobilization, and development in contemporary societies. I am particularly interested in how political elites and mass media shape the salience of ethnic and linguistic boundaries, and in how collective memories affect behavior. 
-
-I use econometric tools for causal inference on contemporary and archival data, as well as original surveys. 
-
-My research has been funded by {{< staticref "https://www.wider.unu.edu/" "newtab" >}}UNU-WIDER{{< /staticref >}} and the {{< staticref "https://theihs.org/" "newtab" >}}Institute for Humane Studies{{< /staticref >}}.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_Lemoli.pdf" "newtab" >}}CV{{< /staticref >}}.
+I have my BSc in Economics and Business Economics [Maastricht University](https://www.maastrichtuniversity.nl/about-um/faculties/school-business-and-economics), with a specialization in Emerging Markets. In 2020, I graduated with an MA in [Gender and Women's Studies in METU](https://gws.metu.edu.tr/en), working on Medical Sociology & Reproductive Health. Currently, I am pursuing my PhD at the Ohio State University.
